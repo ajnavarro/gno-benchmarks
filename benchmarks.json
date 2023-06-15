@@ -1,0 +1,1239 @@
+[
+  {
+    "Version": "d8a1e7e0093071bec28ef4984899d9e05dace725",
+    "Date": 1686837093,
+    "Tags": [
+      "ref=refs/heads/master"
+    ],
+    "Suites": [
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/gnovm/pkg/gnolang",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkPreprocess-4",
+            "Runs": 6362,
+            "NsPerOp": 194609,
+            "Mem": {
+              "BytesPerOp": 68191,
+              "AllocsPerOp": 506,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoopyMain-4",
+            "Runs": 1,
+            "NsPerOp": 5194943504,
+            "Mem": {
+              "BytesPerOp": 160128872,
+              "AllocsPerOp": 10000384,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkMapSet-4",
+            "Runs": 54090981,
+            "NsPerOp": 20.65,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkMapCreateSet-4",
+            "Runs": 51537214,
+            "NsPerOp": 24.47,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkMapCreateSetString-4",
+            "Runs": 42090566,
+            "NsPerOp": 29,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkSliceIterate10-4",
+            "Runs": 64370505,
+            "NsPerOp": 17.27,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkStructStack-4",
+            "Runs": 623595493,
+            "NsPerOp": 1.918,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkStructGC-4",
+            "Runs": 658632476,
+            "NsPerOp": 1.827,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/Int32().Int32()_(no_interface)-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.3799,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/BenchValue().Int32()_(interface_method)-4",
+            "Runs": 437116174,
+            "NsPerOp": 2.719,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/v.(Int32).Int32()_(concrete_assert_method)-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.378,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/case_v.(Int32).Int32()_(type_switch_concrete_assert_method)-4",
+            "Runs": 905752558,
+            "NsPerOp": 1.349,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/MyStruct{Value:Int32(i)}_(struct_interface_field_init)-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.4037,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeAssertionMethodCall/v.(BenchValue).Int32()_(interface_assert_method)-4",
+            "Runs": 99710916,
+            "NsPerOp": 12.43,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeSwitchOrCreate/type-switch-4",
+            "Runs": 349501,
+            "NsPerOp": 3349,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTypeSwitchOrCreate/super-struct-4",
+            "Runs": 502365,
+            "NsPerOp": 2352,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReflectValueOf/int-4",
+            "Runs": 334992448,
+            "NsPerOp": 3.447,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReflectValueOf/string-4",
+            "Runs": 352754874,
+            "NsPerOp": 3.352,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReflectValueOf/struct_{}-4",
+            "Runs": 345212952,
+            "NsPerOp": 3.374,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReflectAddInt64-4",
+            "Runs": 605420221,
+            "NsPerOp": 2.015,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkNativeAddInt64-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.3438,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReflectTypeOf-4",
+            "Runs": 316817820,
+            "NsPerOp": 3.713,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkInterfaceEquality-4",
+            "Runs": 326752378,
+            "NsPerOp": 3.727,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkPointerEquality-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.3351,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkPointerDerefEquality-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.3963,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[1]-4",
+            "Runs": 1000000000,
+            "NsPerOp": 0.3815,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[8]-4",
+            "Runs": 1000000000,
+            "NsPerOp": 1.01,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[16]-4",
+            "Runs": 833093552,
+            "NsPerOp": 1.375,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[20]-4",
+            "Runs": 156973342,
+            "NsPerOp": 7.745,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[32]-4",
+            "Runs": 139268796,
+            "NsPerOp": 8.333,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[64]-4",
+            "Runs": 148251178,
+            "NsPerOp": 8.158,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkArrayEquality/ArrayEquality[256]-4",
+            "Runs": 63647379,
+            "NsPerOp": 16.79,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/bft/consensus/types",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkRoundStateDeepCopy-4",
+            "Runs": 158,
+            "NsPerOp": 7523890,
+            "Mem": {
+              "BytesPerOp": 783263,
+              "AllocsPerOp": 24143,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/bft/mempool",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkReap-4",
+            "Runs": 6134,
+            "NsPerOp": 201524,
+            "Mem": {
+              "BytesPerOp": 122880,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCheckTx-4",
+            "Runs": 9549127,
+            "NsPerOp": 119.6,
+            "Mem": {
+              "BytesPerOp": 40,
+              "AllocsPerOp": 2,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheInsertTime-4",
+            "Runs": 1200880,
+            "NsPerOp": 926.5,
+            "Mem": {
+              "BytesPerOp": 80,
+              "AllocsPerOp": 2,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheRemoveTime-4",
+            "Runs": 1637004,
+            "NsPerOp": 749,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/bft/state",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkLoadValidators/height=10-4",
+            "Runs": 1273,
+            "NsPerOp": 916456,
+            "Mem": {
+              "BytesPerOp": 102787,
+              "AllocsPerOp": 2541,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=100-4",
+            "Runs": 1034,
+            "NsPerOp": 1195093,
+            "Mem": {
+              "BytesPerOp": 102805,
+              "AllocsPerOp": 2541,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=1000-4",
+            "Runs": 303,
+            "NsPerOp": 3888006,
+            "Mem": {
+              "BytesPerOp": 102813,
+              "AllocsPerOp": 2542,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=10000-4",
+            "Runs": 33,
+            "NsPerOp": 31266489,
+            "Mem": {
+              "BytesPerOp": 102823,
+              "AllocsPerOp": 2542,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=100000-4",
+            "Runs": 1398,
+            "NsPerOp": 884804,
+            "Mem": {
+              "BytesPerOp": 102724,
+              "AllocsPerOp": 2537,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=1000000-4",
+            "Runs": 1338,
+            "NsPerOp": 872358,
+            "Mem": {
+              "BytesPerOp": 102725,
+              "AllocsPerOp": 2537,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=10000000-4",
+            "Runs": 1424,
+            "NsPerOp": 875327,
+            "Mem": {
+              "BytesPerOp": 102723,
+              "AllocsPerOp": 2537,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=100000000-4",
+            "Runs": 1302,
+            "NsPerOp": 882732,
+            "Mem": {
+              "BytesPerOp": 102724,
+              "AllocsPerOp": 2537,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkLoadValidators/height=1000000000-4",
+            "Runs": 1255,
+            "NsPerOp": 877047,
+            "Mem": {
+              "BytesPerOp": 102724,
+              "AllocsPerOp": 2537,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/bft/types",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkProposalWriteSignBytes-4",
+            "Runs": 219982,
+            "NsPerOp": 4842,
+            "Mem": {
+              "BytesPerOp": 1512,
+              "AllocsPerOp": 43,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkProposalSign-4",
+            "Runs": 22668,
+            "NsPerOp": 52302,
+            "Mem": {
+              "BytesPerOp": 1576,
+              "AllocsPerOp": 44,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkProposalVerifySignature-4",
+            "Runs": 10000,
+            "NsPerOp": 113508,
+            "Mem": {
+              "BytesPerOp": 1512,
+              "AllocsPerOp": 43,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkValidatorSetCopy-4",
+            "Runs": 11862,
+            "NsPerOp": 102547,
+            "Mem": {
+              "BytesPerOp": 72192,
+              "AllocsPerOp": 1001,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkUpdates-4",
+            "Runs": 949,
+            "NsPerOp": 1362979,
+            "Mem": {
+              "BytesPerOp": 221432,
+              "AllocsPerOp": 2111,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/bft/wal",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkWalRead512B-4",
+            "Runs": 139063,
+            "NsPerOp": 9104,
+            "Mem": {
+              "BytesPerOp": 8904,
+              "AllocsPerOp": 17,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkWalRead10KB-4",
+            "Runs": 15466,
+            "NsPerOp": 77579,
+            "Mem": {
+              "BytesPerOp": 102704,
+              "AllocsPerOp": 23,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/clist",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkPushBack-4",
+            "Runs": 1671746,
+            "NsPerOp": 666.8,
+            "Mem": {
+              "BytesPerOp": 327,
+              "AllocsPerOp": 5,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/cmap",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkCMapHas-4",
+            "Runs": 6347956,
+            "NsPerOp": 192.7,
+            "Mem": {
+              "BytesPerOp": 16,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/crypto/bcrypt",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkEqual-4",
+            "Runs": 13,
+            "NsPerOp": 87666346,
+            "Mem": {
+              "BytesPerOp": 5244,
+              "AllocsPerOp": 12,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkDefaultCost-4",
+            "Runs": 12,
+            "NsPerOp": 87783048,
+            "Mem": {
+              "BytesPerOp": 5190,
+              "AllocsPerOp": 9,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/crypto/bip39",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkIsMnemonicValid-4",
+            "Runs": 496161,
+            "NsPerOp": 2596,
+            "Mem": {
+              "BytesPerOp": 576,
+              "AllocsPerOp": 3,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/crypto/ed25519",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkKeyGeneration-4",
+            "Runs": 33715,
+            "NsPerOp": 35740,
+            "Mem": {
+              "BytesPerOp": 32,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkSigning-4",
+            "Runs": 27151,
+            "NsPerOp": 44890,
+            "Mem": {
+              "BytesPerOp": 64,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkVerification-4",
+            "Runs": 11612,
+            "NsPerOp": 106514,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/crypto/merkle",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkSimpleHashAlternatives/recursive-4",
+            "Runs": 6375,
+            "NsPerOp": 184764,
+            "Mem": {
+              "BytesPerOp": 25424,
+              "AllocsPerOp": 497,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkSimpleHashAlternatives/iterative-4",
+            "Runs": 6462,
+            "NsPerOp": 187541,
+            "Mem": {
+              "BytesPerOp": 28112,
+              "AllocsPerOp": 498,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/crypto/secp256k1",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkSigning-4",
+            "Runs": 7189,
+            "NsPerOp": 153302,
+            "Mem": {
+              "BytesPerOp": 5313,
+              "AllocsPerOp": 84,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkVerification-4",
+            "Runs": 3535,
+            "NsPerOp": 343589,
+            "Mem": {
+              "BytesPerOp": 4225,
+              "AllocsPerOp": 90,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/db",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkGoLevelDBRandomReadsWrites-4",
+            "Runs": 56124,
+            "NsPerOp": 19260,
+            "Mem": {
+              "BytesPerOp": 490,
+              "AllocsPerOp": 10,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/iavl",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkNodeKey-4",
+            "Runs": 17169783,
+            "NsPerOp": 89.12,
+            "Mem": {
+              "BytesPerOp": 48,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkOrphanKey-4",
+            "Runs": 2833154,
+            "NsPerOp": 390,
+            "Mem": {
+              "BytesPerOp": 200,
+              "AllocsPerOp": 7,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/iavl/benchmarks",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkRandomBytes/random-4-4",
+            "Runs": 22223803,
+            "NsPerOp": 51.67,
+            "Mem": {
+              "BytesPerOp": 4,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandomBytes/random-16-4",
+            "Runs": 13138650,
+            "NsPerOp": 89.51,
+            "Mem": {
+              "BytesPerOp": 16,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandomBytes/random-32-4",
+            "Runs": 8918860,
+            "NsPerOp": 124.5,
+            "Mem": {
+              "BytesPerOp": 32,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandomBytes/random-100-4",
+            "Runs": 4373917,
+            "NsPerOp": 274.2,
+            "Mem": {
+              "BytesPerOp": 112,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandomBytes/random-1000-4",
+            "Runs": 470019,
+            "NsPerOp": 2186,
+            "Mem": {
+              "BytesPerOp": 1024,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/ripemd160-64-4",
+            "Runs": 892447,
+            "NsPerOp": 1303,
+            "Mem": {
+              "BytesPerOp": 25,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/ripemd160-512-4",
+            "Runs": 231718,
+            "NsPerOp": 5197,
+            "Mem": {
+              "BytesPerOp": 25,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/sha2-256-64-4",
+            "Runs": 1000000,
+            "NsPerOp": 1020,
+            "Mem": {
+              "BytesPerOp": 33,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/sha2-256-512-4",
+            "Runs": 294128,
+            "NsPerOp": 4122,
+            "Mem": {
+              "BytesPerOp": 33,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/sha3-256-64-4",
+            "Runs": 785862,
+            "NsPerOp": 1415,
+            "Mem": {
+              "BytesPerOp": 513,
+              "AllocsPerOp": 3,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkHash/sha3-256-512-4",
+            "Runs": 361658,
+            "NsPerOp": 3244,
+            "Mem": {
+              "BytesPerOp": 513,
+              "AllocsPerOp": 3,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/iavl/common",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkRandBytes10B-4",
+            "Runs": 5265987,
+            "NsPerOp": 238.6,
+            "Mem": {
+              "BytesPerOp": 16,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes100B-4",
+            "Runs": 536652,
+            "NsPerOp": 2109,
+            "Mem": {
+              "BytesPerOp": 112,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes1KiB-4",
+            "Runs": 56812,
+            "NsPerOp": 21244,
+            "Mem": {
+              "BytesPerOp": 1024,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes10KiB-4",
+            "Runs": 5322,
+            "NsPerOp": 214099,
+            "Mem": {
+              "BytesPerOp": 10240,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes100KiB-4",
+            "Runs": 489,
+            "NsPerOp": 2176381,
+            "Mem": {
+              "BytesPerOp": 106496,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes1MiB-4",
+            "Runs": 54,
+            "NsPerOp": 22483410,
+            "Mem": {
+              "BytesPerOp": 1048576,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/log",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkTMLoggerSimple-4",
+            "Runs": 432934,
+            "NsPerOp": 2567,
+            "Mem": {
+              "BytesPerOp": 672,
+              "AllocsPerOp": 15,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkTMLoggerContextual-4",
+            "Runs": 313128,
+            "NsPerOp": 3725,
+            "Mem": {
+              "BytesPerOp": 800,
+              "AllocsPerOp": 21,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/p2p",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkSwitchBroadcast-4",
+            "Runs": 59562,
+            "NsPerOp": 20452,
+            "Mem": {
+              "BytesPerOp": 2028,
+              "AllocsPerOp": 57,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/p2p/conn",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkWriteSecretConnection-4",
+            "Runs": 63108,
+            "NsPerOp": 17104,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkReadSecretConnection-4",
+            "Runs": 111430,
+            "NsPerOp": 10938,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/random",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkRandBytes10B-4",
+            "Runs": 5086402,
+            "NsPerOp": 241,
+            "Mem": {
+              "BytesPerOp": 16,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes100B-4",
+            "Runs": 560868,
+            "NsPerOp": 2125,
+            "Mem": {
+              "BytesPerOp": 112,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes1KiB-4",
+            "Runs": 57008,
+            "NsPerOp": 23014,
+            "Mem": {
+              "BytesPerOp": 1024,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes10KiB-4",
+            "Runs": 5252,
+            "NsPerOp": 215624,
+            "Mem": {
+              "BytesPerOp": 10240,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes100KiB-4",
+            "Runs": 564,
+            "NsPerOp": 2125506,
+            "Mem": {
+              "BytesPerOp": 106496,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkRandBytes1MiB-4",
+            "Runs": 51,
+            "NsPerOp": 21846004,
+            "Mem": {
+              "BytesPerOp": 1048577,
+              "AllocsPerOp": 1,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/sdk/auth",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkAccountMapperGetAccountFoundWithCoins-4",
+            "Runs": 66950,
+            "NsPerOp": 18426,
+            "Mem": {
+              "BytesPerOp": 1979,
+              "AllocsPerOp": 46,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkAccountMapperSetAccount-4",
+            "Runs": 52342,
+            "NsPerOp": 24284,
+            "Mem": {
+              "BytesPerOp": 10380,
+              "AllocsPerOp": 138,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkAccountMapperSetAccountWithCoins-4",
+            "Runs": 40785,
+            "NsPerOp": 30450,
+            "Mem": {
+              "BytesPerOp": 11172,
+              "AllocsPerOp": 183,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/store/cache",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkCacheStoreIterator500-4",
+            "Runs": 25634,
+            "NsPerOp": 47054,
+            "Mem": {
+              "BytesPerOp": 8530,
+              "AllocsPerOp": 17,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheStoreIterator1000-4",
+            "Runs": 11721,
+            "NsPerOp": 97911,
+            "Mem": {
+              "BytesPerOp": 25592,
+              "AllocsPerOp": 19,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheStoreIterator10000-4",
+            "Runs": 781,
+            "NsPerOp": 1524126,
+            "Mem": {
+              "BytesPerOp": 364838,
+              "AllocsPerOp": 141,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheStoreIterator50000-4",
+            "Runs": 70,
+            "NsPerOp": 14389863,
+            "Mem": {
+              "BytesPerOp": 2320954,
+              "AllocsPerOp": 6514,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheStoreIterator100000-4",
+            "Runs": 22,
+            "NsPerOp": 47346907,
+            "Mem": {
+              "BytesPerOp": 6437123,
+              "AllocsPerOp": 41301,
+              "MBPerSec": 0
+            }
+          },
+          {
+            "Name": "BenchmarkCacheStoreGetNoKeyFound-4",
+            "Runs": 2102834,
+            "NsPerOp": 768.7,
+            "Mem": {
+              "BytesPerOp": 156,
+              "AllocsPerOp": 3,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      },
+      {
+        "Goos": "linux",
+        "Goarch": "amd64",
+        "Pkg": "github.com/gnolang/gno/tm2/pkg/store/iavl",
+        "Benchmarks": [
+          {
+            "Name": "BenchmarkIAVLIteratorNext-4",
+            "Runs": 1000000,
+            "NsPerOp": 1102,
+            "Mem": {
+              "BytesPerOp": 0,
+              "AllocsPerOp": 0,
+              "MBPerSec": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
